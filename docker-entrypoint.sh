@@ -8,6 +8,8 @@ set -e
 
         fi
 
+chown www-data:www-data /var/www/html
+touch /var/www/html/crossdomain.xml
 
 
 
